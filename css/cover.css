@@ -325,8 +325,8 @@ header {
   color: #3c4043;
   cursor: pointer;
   font-family: arial,sans-serif;
-  font-size: 0.8rem;
-  height: 2rem;
+  font-size: 1rem;
+  height: 1.5rem;
   min-width: 1rem;
   padding: 0 0.3rem;
   text-align: center;
@@ -334,6 +334,7 @@ header {
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: pre;
+  margin-bottom: 0.5rem;
 }
 
 .button-16:hover {
