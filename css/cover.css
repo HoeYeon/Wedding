@@ -311,6 +311,12 @@ header {
   padding: 0px 0.3em;
 }
 
+.section4-sec1-accountNum {
+  font-family: NanumMyeongjo-r;
+  line-height: 2em;
+  font-size: 1.1rem;
+}
+
 .section5 {
   background-color: #f9f9f9;
 }
