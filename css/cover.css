@@ -319,16 +319,16 @@ header {
 
 /* CSS */
 .button-16 {
+  font-family: NanumMyeongjo-r;
   background-color: #cedcea;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
   color: #3c4043;
   cursor: pointer;
-  font-family: arial,sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   height: 1.5rem;
   min-width: 1rem;
-  padding: 0 0.3rem;
+  padding: 0.8rem 0.6rem;
   text-align: center;
   user-select: none;
   -webkit-user-select: none;
