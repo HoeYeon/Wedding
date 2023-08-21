@@ -69,11 +69,11 @@
     
     <script>
         function toast_show_hide(show) {
-            document.getElementById("copy-toast").animate([{opacity: show ? "1" : "0"}], { duration: 500, fill: "forwards" });
+            document.getElementById("copy-toast").animate([{opacity: show ? "1" : "0"}], { duration: 300, fill: "forwards" });
         }
         function toast_show() {
             toast_show_hide(true);
-            setTimeout(function() { toast_show_hide(false); }, 1000);
+            setTimeout(function() { toast_show_hide(false); }, 500);
         }
         function copy(val, id) {
             p = document.getElementById(id);
