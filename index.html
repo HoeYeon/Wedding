@@ -150,7 +150,7 @@
                 galleryDisplayMode: 'rows',
                 galleryMaxRows: 3,
                 galleryMaxItems: 17,
-                gallerySorting: 'random',
+                gallerySorting: 'titleAsc',
                 thumbnailHeight: '250 XS200 SM200',       // RESPONSIVE THUMBNAIL HEIGHT: default=300px, XS resolution=200px, SM resolution=200px
                 thumbnailWidth: '250 XSauto SMauto',        // RESPONSIVE THUMBNAIL WIDTH:  default=300px, XS resolution=180px, SM resolution=200px
  
@@ -187,10 +187,10 @@
            
                 // LIGHTBOX
                 // Hide the bottom toolbar and media title
-                viewerToolbar: { display: true },
+                viewerToolbar: { display: false },
  
                 // DEEP LINKING
-                locationHash: false,
+                locationHash: true,
  
                 // ### gallery content ###
                 items: [
